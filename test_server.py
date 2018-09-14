@@ -12,7 +12,7 @@ class DadJokeIntegrationTestCase(unittest.TestCase):
     def test_show_home(self):
         result = self.client.get("/home")
         self.assertEqual(result.status_code, 200)
-        self.assertIn(b'<input type="button" id="home-main-joke-btn" value="Get Dad Joke">', result.data)
+        self.assertIn(b'<input type="button" id="home-main-joke-btn" value="Generate Random Dad Joke">', result.data)
 
     def test_set_num_words(self):
         result = self.client.post("/set_num_words.json", data={"num_words": "3"})
@@ -22,7 +22,7 @@ class DadJokeIntegrationTestCase(unittest.TestCase):
     def test_return_random(self):
         result = self.client.get("/get_random_joke.json")
         self.assertEqual(result.status_code, 200)
-        self.assertIn(b'.', result.data)
+        self.assertIn(b' ', result.data)
 
     def test_return_not_random(self):
         result = self.client.post("/get_not_random_joke.json", data={"user_input": "the",
