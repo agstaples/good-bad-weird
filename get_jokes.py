@@ -29,7 +29,21 @@ def save_dad_joke_text():
     for results in page_results:
         for result in results:
             file.write(result["joke"]+"\n")
+    file.close()
 
+def memoize(function):
+    """memoizes results of making dad joke string"""
+
+    memo = {}
+
+    # checks if results already memoized, adds if not
+    def helper_func(*args):
+        if args not in memo:            
+            memo[args] = function(*args)
+        return memo[args]
+    return helper_func
+
+@memoize
 def get_dad_joke_string():
     """returns joke text as single string with each joke ending in new line"""
 
@@ -37,7 +51,9 @@ def get_dad_joke_string():
 
     file = open("data/joke-text.txt", "r")
     joke_string = file.read()
+    file.close()
 
     return joke_string
+
 
 
