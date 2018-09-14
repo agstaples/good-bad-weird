@@ -1,0 +1,82 @@
+body {
+  background: url(giftly.png) no-repeat center center;
+  background-size: cover;
+  background-position: 0px 0px;
+  background: rgba(0.1)
+}
+
+.red {
+    color: red;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider {
+    opacity: 0.7;
+    cursor: pointer;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px
+}
+
+#left-slider-text {
+    float: left;
+    margin-left: 10%
+}
+
+#right-slider-text {
+    float: right;
+    margin-right: 10%
+}
+
+#slider-text-div {
+    height: 100px;
+    width: 100%;
+}
+
+.joke-1 {
+    cursor: pointer;
+}
+
+.joke-2 {
+    cursor: pointer;
+}
+
+.joke-3 {
+    cursor: pointer;
+}
+
+.joke-4 {
+    cursor: pointer;
+}
+
+.joke {
+    font-size: medium;
+}
+
+.joke-text {
+    font-size: large;
+}
+
+#joke-btns-div
+{
+    width:100%;
+    text-align: center;  
+}
+
+.joke-btn-div {
+    display: inline-block;
+    padding-bottom: 50px
+}
+
+#home-main-joke-btn {
+    font-size: x-large;
+}
+
+#prev-joke-btn {
+    font-size: x-large;
+}
+
