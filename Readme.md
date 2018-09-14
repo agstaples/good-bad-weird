@@ -38,13 +38,6 @@ Clone or fork this repo:
 https://github.com/agstaples/good-bad-weird.git
 ```
 
-Create and activate a virtual environment inside your Good Bad Weird directory:
-
-```
-virtualenv env
-source env/bin/activate
-```
-
 Install the dependencies:
 
 ```
@@ -54,11 +47,11 @@ pip install -r requirements.txt
 Run the app:
 
 ```
-python server.py
+python3 server.py
 ```
 
 You can now navigate to 'localhost:5000/' to access Good Bad Weird.
 
 ## <a name="aboutme"></a>About Me
-Anne Staples is a Software Engineer in the Bay Area; she is awesome; this is her second project.
+Anne Staples is a Software Engineer in the Bay Area.
 Visit her on [LinkedIn](http://www.linkedin.com/in/anne-staples).
