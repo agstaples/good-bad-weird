@@ -38,12 +38,6 @@ Clone or fork this repo:
 https://github.com/agstaples/good-bad-weird.git
 ```
 
-Install the dependencies:
-
-```
-pip install -r requirements.txt
-```
-
 Run the app:
 
 ```
