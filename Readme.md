@@ -61,4 +61,4 @@ You can now navigate to 'localhost:5000/' to access Good Bad Weird.
 
 ## <a name="aboutme"></a>About Me
 Anne Staples is a Software Engineer in the Bay Area; she is awesome; this is her second project.
-Visit her on [LinkedIn](http://www.linkedin.com/in/agstaples).
+Visit her on [LinkedIn](http://www.linkedin.com/in/anne-staples).
