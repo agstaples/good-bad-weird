@@ -4,7 +4,8 @@ from markov import random_forward_markov, multi_directional_markov
 
 app = Flask(__name__)
 
-app.secret_key = "ABCDEFG"
+app.secret_key = "V*jL???Lu?{"
+
 
 @app.route("/home")
 def show_home():
@@ -64,4 +65,4 @@ def return_not_random():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)

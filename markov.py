@@ -1,6 +1,5 @@
 from get_jokes import get_dad_joke_string
 from random import choice
-import string
 
 
 def memoize(function):
