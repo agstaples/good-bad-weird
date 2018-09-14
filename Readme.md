@@ -30,15 +30,15 @@ Users' jokes are stored in localStorage and can be retrieved at any time:
 
 ## <a name="install"></a>Installation
 
-To run Ride Thrift:
+To run Good Bad Weird:
 
 Clone or fork this repo:
 
 ```
-https://github.com/nnegri/RideThrift.git
+https://github.com/agstaples/good-bad-weird.git
 ```
 
-Create and activate a virtual environment inside your Ride Thrift directory:
+Create and activate a virtual environment inside your Good Bad Weird directory:
 
 ```
 virtualenv env
