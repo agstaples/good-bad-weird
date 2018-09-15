@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = "V*jL???Lu?{"
 
 
-@app.route("/home")
+@app.route("/")
 def show_home():
     """renders home.html"""
 

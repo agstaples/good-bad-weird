@@ -10,7 +10,7 @@ class DadJokeIntegrationTestCase(unittest.TestCase):
         server.app.config['TESTING'] = True
 
     def test_show_home(self):
-        result = self.client.get("/home")
+        result = self.client.get("/")
         self.assertEqual(result.status_code, 200)
         self.assertIn(b'<input type="button" id="home-main-joke-btn" value="Generate Random Dad Joke">', result.data)
 
